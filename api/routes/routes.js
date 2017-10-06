@@ -1,9 +1,9 @@
-const Episode = require('../models/episode');
+const Log = require('../models/log');
 
-const episodeRoutes = require('./episodeRoutes.js');
+const logRoutes = require('./logRoutes.js');
 
 module.exports = function(app) {
 
-    episodeRoutes(app);
+    logRoutes(app);
     
 };

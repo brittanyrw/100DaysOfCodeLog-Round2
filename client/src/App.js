@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Log from './Log';
+import LogSummary from './LogSummary';
 
 class App extends Component {
 
@@ -24,7 +24,10 @@ class App extends Component {
             </ul>
           </stats>
         </header>
-        <Log></Log>
+        <LogSummary></LogSummary>
+        <LogSummary></LogSummary>
+        <LogSummary></LogSummary>
+        <LogSummary></LogSummary>
         <footer></footer>
       </div>
     );
